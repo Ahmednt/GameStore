@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+    <title>Bootstrap 5 E Commerce Website!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fabedba095.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+ 
+    <!------------------- header-body --------------------------->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark shadow">
+  <div class="container d-flex justify-content-between align-items-center">
+  <a href="index.html" class="navbar-brand h1">
+      <span class="text-warning h4"> متجر</span>
+      <span class="text-white h4">الألعاب</span>
+  </a>
+  <button class="navbar-toggler border-0 "type="button" data-bs-toggle ="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>  
+</button>
+<div class="align-self-center collapse flex-fill d-lg-flex justify-content-lg-between" id="navbar-toggle-success">
+    <div class="flex-fill mx-xl-5 mb-2">
+        <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center">
+        <li class="nav-item">
+            <a href="" class="nav-link btn-outline-warning rounded-pill px-3 ">الرئيسية</a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link btn-outline-warning rounded-pill px-3">التصنيفات</a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link btn-outline-warning rounded-pill px-3">تسوق الآن</a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link btn-outline-warning rounded-pill px-3">الخدمات</a>
+        </li>
+        <li class="nav-item">
+            <a href="" class="nav-link btn-outline-warning rounded-pill px-3">عروض</a>
+        </li>
+        </ul>
+    </div>
+    <div class="navbar align-self-center d-flex">
+        <a href="" class="nav-link">
+            <i class="fab fa-instagram text-warning"></i>
+                </a>
+        <a href="" class="nav-link">
+            <i class="fab fa-snapchat text-warning"></i>
+        </a>
+        <a href="" class="nav-link">
+            <i class="fab fa-tiktok text-warning"></i>
+        </a>
+        <a href="" class="nav-link">
+            <i class="fab fa-amazon text-warning"></i>
+        </a>
+    </div>
+</div>
+  </div>
+  </nav>
+    <!--End header -------------------------------------------------------------------------------------------->
+
+        <!-- section one hero------------------------------------------------------>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/RazerBlackSharkV2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Razer Black-Shark V2</h5>
+                  <p>سماعات الالعاب  اصدار ثاني من ريزر بلاك شارك  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/RedragonS101.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Redragon S101 Mechanical Gaming Keyboard & Muose</h5>
+                 <p> 
+                   Redragon S101 لوحة مفاتيح وماوس سلكية للألعابة 
+                </p>
+                 </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/DeskGame.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>L Shaped Gaming Desk</h5>
+                  <p>مكتب ألعاب على شكل ال، مكتب منزلي مع زاوية مستديرة ، مكتب كمبيوتر مع محطة عمل كبيرة لشاشة العرض</p>
+
+                  
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!-- end section one hero------------------------------------------------------>
+        <!-- categories  section ------------------------------------------------------>
+      
+      <section class="container-fluid py-5 cate-bg">
+        <div clas="row text-center pt-3">
+          <div class="col-lg-6 m-auto">
+            <h1 class="text-light">فئات أجزاء من جهاز الكمبيوتر</h1>
+            <p class="text-light">اختر المنتج الذي يعجبك من الفئة أجزاء ألعاب الكمبيوتر</p>
+          </div>
+        </div> 
+        <div class="row">
+          <div class="col-12 col-md-4 p-5 mt-3">
+            <a href="">
+              <img src="images/havitwired.jpg" class="rounded-circle img-fluid border"/>
+            </a> 
+            <h5 class="text-center text-white mt-3 mb-3">havitwired keyboard</h5>
+            <p class="text-center">
+              <a href="" class="btn btn-warning rounded-pill">تسوق لان</a>
+            </p>
+          </div> 
+          <div class="col-12 col-md-4 p-5 mt-3">
+            <a href="">
+              <img src="images/ASUSZAKUII.jpg" class="rounded-circle img-fluid border"/>
+            </a> 
+            <h5 class="text-center text-white mt-3 mb-3">ASUSZAKUII Gaming PC </h5>
+            <p class="text-center">
+             </p>
+            <a href="" class="btn btn-warning rounded-pill">تسوق لان</a>
+
+          </div> 
+          <div class="col-12 col-md-4 p-5 mt-3">
+            <a href="">
+              <img src="images/AorusCV27q.jpg" class="rounded-circle img-fluid border"/>
+            </a> 
+            <h5 class="text-center text-white mt-3 mb-3">AOC 27 Curved Gaming Monitor with Quad HD</h5>
+            <p class="text-center">
+              <a href="" class="btn btn-warning rounded-pill">تسوق لان</a>
+            </p>
+          </div>  
+            
+         </div>
+
+      </section>
+        <!-- categories  section end------------------------------------------------------>
+
+        <!-- shopping now------------------------------------------------------>
+        
+        <section class="py-0 pb-6 background" id="collections">
+          <div class="container">
+            <div class="row h-100">
+              <div class="col-lg-7 mt-7">
+                <h5 class="fs-3 fs-lg-5 lh-sm mb-0 text-uppercase text-white">عرض المنتجات</h5>
+              </div>
+              <div class="col-12">
+                <nav>
+                  <div class="nav nav-tabs wine-tabs mb-4 nav justify-content-end" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-latest-tab" data-bs-toggle="tab" data-bs-target="#nav-latest" 
+                    type="button" role="tab" aria-controls="nav-latest" aria-selected="ture">أحدث</button>
+                      <button class="nav-link" id="nav-popular-tab" data-bs-toggle="tab" data-bs-target="#nav-popular" 
+                      type="button" role="tab" aria-controls="nav-popular" aria-selected="false">الحالي</button>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show acive" id="nav-latest" role="tabpanel" aria-labelledby="nav-latest-tab">
+                 <div class="carousel slide" id="caroudelLatest" data-bs-ride="carousel">
+                   <div class="carousel-inner">
+                     <div class="carousel-item active" data-bs-interval="10000">
+                       <div class="row h-100 align-items-center">
+                         <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                           <div class="card bg-black text-white p-6 pb-8">
+                             <img class="card-img" src="images/RedragonM913.jpg" alt="..">
+                             <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                               <h6 class="text-dark btn btn-outline-warning rounded-pill">ريال471.05</h6>
+                               <h4 class="text-warning">Gainward GeForce RTX 3080</h4>
+                             </div>
+                           </div>
+                         </div>
+                        <!------------------------------------------------------------------->
+                        <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                          <div class="card bg-black text-white p-6 pb-8">
+                            <img class="card-img" src="images/EidGamingPC 2.jpg" alt="..">
+                            <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                              <h6 class="text-dark btn btn-outline-warning rounded-pill">ريال722.43</h6>
+                              <h4 class="text-warning">ASUS PRIME H510M-D Gaming PC</h4>
+                            </div>
+                          </div>
+                        </div>
+                           <!------------------------------------------------------------------->
+                           <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                            <div class="card bg-black text-white p-6 pb-8">
+                              <img class="card-img" src="images/dellGam.jpg" alt="..">
+                              <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                <h6 class="text-dark btn btn-outline-warning rounded-pill">ريال1200</h6>
+                                <h4 class="text-warning">Dell Alienware M17 R3 Gaming PC</h4>
+                              </div>
+                            </div>
+                          </div>
+                             <!------------------------------------------------------------------->
+                       </div>
+                     </div>
+                     <!---------------------------->
+                     <div class="carousel-item" data-bs-interval="5000">
+                      <div class="row h-100 align-items-center">
+                        <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                          <div class="card bg-black text-white p-6 pb-8">
+                            <img class="card-img" src="images/server.jpg" alt="..">
+                            <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                              <h6 class="text-dark btn btn-outline-warning rounded-pill">350ريال</h6>
+                              <h4 class="text-warning">PS Server HP ProLiant</h4>
+                            </div>
+                          </div>
+                        </div>
+                       <!------------------------------------------------------------------->
+                       <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                         <div class="card bg-black text-white p-6 pb-8">
+                           <img class="card-img" src="images/chairGam.jpg" alt="..">
+                           <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                             <h6 class="text-dark btn btn-outline-warning rounded-pill">110.43ريال</h6>
+                             <h4 class="text-warning">Arozzi Vernazza Soft Fabric Gaming Chair </h4>
+                           </div>
+                         </div>
+                       </div>
+                          <!------------------------------------------------------------------->
+                          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                           <div class="card bg-black text-white p-6 pb-8">
+                             <img class="card-img" src="images/desk.jpg" alt="..">
+                             <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                               <h6 class="text-dark btn btn-outline-warning rounded-pill">ريال104.18</h6>
+                               <h4 class="text-warning">Eureka Ergonomic Z2 ESport RGB Gaming Desk</h4>
+                             </div>
+                           </div>
+                         </div>
+                            <!------------------------------------------------------------------->
+                      </div>
+                    </div>
+                    <!---------------------------->
+                    <div class="row">
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselLastest" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button"data-bs-target="#carouselLastest" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                   </div>
+                   <!--------------------------------------الحالي-->
+                 </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-popular" role="tabpanel" aria-labelledby="nav-popular-tab">
+                    <div class="carousel slide" id="carouselPopular" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-bs-interval="10000">
+                            <div class="row h-100 align-items-center">
+                              <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                <div class="card bg-black text-white p-6 pb-8">
+                                  <img class="card-img" src="images/webcam.jpg" alt="..">
+                                  <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                    <h6 class="text-warning btn btn-outline-dark rounded-pill">35ريال</h6>
+                                    <h4 class="text-warning">Asus Webcam C3 1080P USB Camera </h4>
+                                  </div>
+                                </div>
+                              </div>
+                              <!---------------------------------->
+                              <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                <div class="card bg-black text-white p-6 pb-8">
+                                  <img class="card-img" src="images/mic.jpg" alt="..">
+                                  <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                    <h6 class="text-warning btn btn-outline-dark rounded-pill">56.7ريال</h6>
+                                    <h4 class="text-warning">Razer Seiren V2 Pro</h4>
+                                  </div>
+                                </div>
+                              </div>
+                              <!---------------------------------->
+                              <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                <div class="card bg-black text-white p-6 pb-8">
+                                  <img class="card-img" src="images/keypordmouse.jpg" alt="..">
+                                  <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                    <h6 class="text-warning btn btn-outline-dark rounded-pill">18.5ريال</h6>
+                                    <h4 class="text-warning">Mouse & KeyboardGaming</h4>
+                                  </div>
+                                </div>
+                              </div>
+                              <!---------------------------------->
+                            </div>
+                          </div>
+                          <!---------------------->
+                          <div class="carousel-item">
+                            <div class="row h-100 align-items-center">
+                              <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                <div class="card bg-black text-white p-6 pb-8">
+                                  <img class="card-img" src="images/speacker.jpg" alt="..">
+                                  <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                    <h6 class="text-warning btn btn-outline-dark rounded-pill">180ريال</h6>
+                                    <h4 class="text-warning">Razer Nommo Pro Surround Speakers </h4>
+                                  </div>
+                                </div>
+                              </div>
+                              <!---------------------------------->
+                              <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                <div class="card bg-black text-white p-6 pb-8">
+                                  <img class="card-img" src="images/remote.jpg" alt="..">
+                                  <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                    <h6 class="text-warning btn btn-outline-dark rounded-pill">45ريال</h6>
+                                    <h4 class="text-warning">Razer Wolverine V2 Wired Gaming Controller</h4>
+                                  </div>
+                                </div>
+                              </div>
+                              <!---------------------------------->
+                              <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                <div class="card bg-black text-white p-6 pb-8">
+                                  <img class="card-img" src="images/switch.jpg" alt="..">
+                                  <div class="card-img-overlay effect bg-dark-gradient d-flex flex-column-reverse align-items-center">
+                                    <h6 class="text-warning btn btn-outline-dark rounded-pill">33.5ريال</h6>
+                                    <h4 class="text-warning">D-Link DGS-1 Switch Rounter</h4>
+                                  </div>
+                                </div>
+                              </div>
+                              <!---------------------------------->
+                            </div>
+                          </div>
+                          <!---------------------->
+                          <div class="row">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPopular" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"data-bs-target="#carouselPopular" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+
+                        </div>
+
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </section>
+
+        <!-- end shopping ------------------------------------------------------>
+        <!-- services shopping section------------------------------------------------------>
+        <div class="container-fluid background py-5">
+          <div class="row jsutify-content-center">
+           <div class="col-xxl-10">
+             <div class="card card-span shadow"style="border: radius 35px;">
+               <div class="card-body py-5">
+                 <div class="row justify-content-evenly">
+                   <div class="col-md-2">
+                     <div class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between">
+                       <i class="fas fa-tags fa-3x text-warning"></i>
+                       <div class="d-flex d-lg-block d-xl-flex flex-center">
+                         <h2 class="fw-bolder text-1000 mb-0 text-warning">تخفيضات</h2>
+                       </div>
+                     </div>
+                   </div>
+                  <div class="col-md-3 hr-vertical">
+                 <div class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between"> 
+                   <i class="fas fa-phone-alt fa-3x text-warning"></i>
+                    <div class="d-flex d-lg-block d-xl-flex flex flex-center">
+                      <h2 class="fw-bolder text-1000 mb-0 text-warning">متوفر عند الطلب</h2>
+                    </div>
+                  </div>
+                 </div>
+                 <!--------secod card------->
+                 <div class="col-md-3 hr-vertical">
+                  <div class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between"> 
+                    <i class="fas fa-truck fa-3x text-warning"></i>
+                     <div class="d-flex d-lg-block d-xl-flex flex flex-center">
+                       <h2 class="fw-bolder text-1000 mb-0 text-warning">توصيل مجاني</h2>
+                     </div>
+                   </div>
+                  </div>
+
+                  <div class="col-md-2 hr-vertical">
+                    <div class="d-flex d-md-block d-xl-flex justify-content-evenly justify-content-lg-between"> 
+                      <i class="fas fa-gift fa-3x text-warning"></i>
+                       <div class="d-flex d-lg-block d-xl-flex flex flex-center">
+                         <h2 class="fw-bolder text-1000 mb-0 text-warning">هدايا</h2>
+                       </div>
+                     </div>
+                    </div>
+               </div>
+             </div>
+             </div>
+           </div>  
+          </div>
+        </div>
+        <!-- end-services shopping section------------------------------------------------------>
+
+
+        <!-- offers section------------------------------------------------------>
+         <section class="background">
+        <div class="container">
+          <div class="row h-100">
+            <div class="col-lg-7 mx-auto text-center mb-6">
+              <h2 class="fw-bold fs-3 fs-lg-5 lh-sm mb-3 mt-5 text-white">توجد عروض حصرية يوم</h2>
+            </div>
+          </div>
+          <div class="row gx-2">
+            <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+           <div class="card card-span h-100 text-white rounded-3">
+             <img class="img-fluid rounded-3 h-100" src="images/earphoneGam.jpg" alt=".."> 
+             <div class="card-img-overlay ps-0">
+               <span class="badge bg-warning p-2 ms-3">
+                 <i class="fas fa-tag ,s-2 fs-0"></i>
+                 <span class="fs-0">24٪ خصم</span>
+               </span>
+             </div>
+           </div>
+            </div>
+                       <!---------------------->
+                       <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+                        <div class="card card-span h-100 text-white rounded-3">
+                          <img class="img-fluid rounded-3 h-100" src="images/memory.jpg" alt=".."> 
+                          <div class="card-img-overlay ps-0">
+                            <span class="badge bg-warning p-2 ms-3">
+                              <i class="fas fa-tag ,s-2 fs-0"></i>
+                              <span class="fs-0">10٪ خصم</span>
+                            </span>
+                          </div>
+                        </div>
+                         </div>
+                         
+                       <!---------------------->
+                       <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+                        <div class="card card-span h-100 text-white rounded-3">
+                          <img class="img-fluid rounded-3 h-100" src="images/Belkin.jpg" alt=".."> 
+                          <div class="card-img-overlay ps-0">
+                            <span class="badge bg-warning p-2 ms-3">
+                              <i class="fas fa-tag ,s-2 fs-0"></i>
+                              <span class="fs-0">14٪ خصم</span>
+                            </span>
+                          </div>
+                        </div>
+                         </div>
+                         
+                       <!---------------------->
+                       <div class="col-sm-6 col-md-4 col-lg-3 h-100 mb-5">
+                        <div class="card card-span h-100 text-white rounded-3">
+                          <img class="img-fluid rounded-3 h-100" src="images/exteder.jpg" alt=".."> 
+                          <div class="card-img-overlay ps-0">
+                            <span class="badge bg-warning p-2 ms-3">
+                              <i class="fas fa-tag ,s-2 fs-0"></i>
+                              <span class="fs-0">18٪ خصم</span>
+                            </span>
+                          </div>
+                        </div>
+                         </div>
+                         
+          </div>
+
+
+        </div>
+         </section>
+
+        <!-- end offers section------------------------------------------------------>
+
+        <footer class="background pt-4">
+          <div class="container">
+            <div class="row py-4">
+              <div class="col-lg-3 col-12 align-left">
+                <a href="navbar-brand" href="#">
+                  <i class="fas fa-gamepad fa-2x text-warning"></i>
+                  <span class="text-white h3" >متجر</span>
+                  <span class="text-warning h3 semi-bold-600">الالعاب</span>
+                </a>
+                 <br>
+                 <br>
+                 <br>
+                 <ul class="list-inline footer-icons light-300">
+                   <li class="list-inline-item m-0">
+                     <a  class="text-light">
+                      <i class="fab fa-instagram fa-2x text-warning"></i>
+                    </a>
+                   </li>
+                   <li class="list-inline-item m-0">
+                    <a  class="text-light">
+                      <i class="fab fa-snapchat fa-2x text-warning"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item m-0">
+                    <a  class="text-light">
+                      <i class="fab fa-tiktok fa-2x text-warning"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item m-0">
+                    <a  class="text-light">
+                      <i class="fab fa-amazon fa-2x text-warning"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item m-0">
+                    <a  class="text-light">
+                      <i class="fab fa-whatsapp fa-2x text-warning"></i>
+                    </a>
+                  </li>
+                 </ul>
+              </div>
+              <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h3 class="h4 pb-lg-3 text-light light-300">روابط مختصرة</h3>
+                <ul class="list-unstyled text-light light-300">
+                  <li class="pb-2">
+                    <i class="fas fa-hand-point-right"></i>
+                    <a href="#" class="text-decoration-none text-light">الرئيسية</a>
+                  </li>
+                  <li class="pb-2">
+                    <i class="fas fa-hand-point-right"></i>
+                    <a href="#" class="text-decoration-none text-light">التصنيفات</a>
+                  </li>
+                  <li class="pb-2">
+                    <i class="fas fa-hand-point-right"></i>
+                    <a href="#" class="text-decoration-none text-light">الخدمات</a>
+                  </li>
+                  <li class="pb-2">
+                    <i class="fas fa-hand-point-right"></i>
+                    <a href="" class="text-decoration-none text-light">عروض</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-2 col-md-4 my-sm-0 mt-2">
+                <h2 class="h2 pb-lg-3 text-light light-300">معلومات عنا</h2>
+                <p class="text-left text-light">
+                  متجر عماني لألعاب الفيديو والإلكترونيات الاستهلاكية ، وبائع تجزئة للألعاب. يقع المقر الرئيسي في نزوى ، سلطنة عُمان 
+                 </p>
+              </div>
+
+              <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h2 class="h2 pb-lg-3 text-light light-300">تواصل معنا</h2>
+                <ul class="list-unstyled text-light light-300">
+                  <li class="pb-2">
+                    <i class="fas fa-phone-alt fa-1x"></i>
+                    <a href="" class="text-decoration-none text-light py-1" href="">
+                  +968 900000000000000000
+                    </a>
+                  </li>
+                  <li class="pb-2">
+                    <i class="fas fa-envelope fa-1x"></i>
+                    <a href="" class="text-decoration-none text-light py-1" href="">
+                      info@gamestore.com 
+                    </a>
+                  </li>
+
+                </ul>
+                 
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="w-100 bg-footer py-3 border-light">
+            <div class="container">
+           <div class="row pt-2">
+             <div class="col-lg-6 col-sm-12">
+               <p class="text-lg-start text-center text-light light-300">
+                 Copyright &copy; Designer &amp; Rights Reserved
+               </p>
+             </div>
+             
+             <div class="col-lg-6 col-sm-12"> 
+               <p class="text-lg-end text-center text-warning light-300">
+                <a href="https://www.instagram.com/ahmeddeveloper01" class="nav-link">
+                  <i class="fab fa-instagram text-warning "></i>
+                  Follow me 
+                      </a>
+                 2022/ 1443,  By Ahmed, ahmeddeveloper01@gmail.com
+               </p>
+               
+
+
+             </div>
+
+           </div>
+            </div>
+
+          </div>
+
+        </footer>
+ 
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
